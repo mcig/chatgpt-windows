@@ -2,7 +2,7 @@
 
 This is a simple app that makes ChatGPT live in your menubar. Forked from [chatgpt-mac](https://github.com/vincelwt/chatgpt-mac)
 
-You can use Control+Shift+G to quickly open it from anywhere.
+You can use Control+Shift+K to quickly open it from anywhere.
 
 Download:
 
