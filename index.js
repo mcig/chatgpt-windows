@@ -41,7 +41,7 @@ app.on("ready", () => {
   });
 
   mb.on("ready", () => {
-    // app.dock.hide();
+    if (process.platform === "darwin") app.dock.hide();
 
     tray.on("right-click", () => {
       mb.tray.popUpContextMenu(Menu.buildFromTemplate(contextMenuTemplate));
@@ -50,13 +50,15 @@ app.on("ready", () => {
     const { window } = mb;
     const menu = new Menu();
 
-    globalShortcut.register("CommandOrControl+Shift+g", () => {
+    globalShortcut.register("CommandOrControl+Shift+k", () => {
       if (window.isVisible()) {
         mb.hideWindow();
       } else {
         mb.showWindow();
-        mb.app.show();
-        mb.app.focus();
+        if (process.platform === "darwin") {
+          mb.app.show();
+          mb.app.focus();
+        }
       }
     });
 
@@ -98,7 +100,7 @@ app.on("ready", () => {
 
   // restore focus to previous app on hiding
   mb.on("after-hide", () => {
-    mb.app.hide();
+    if (process.platform === "darwin") mb.app.hide();
   });
 
   // open links in new window
