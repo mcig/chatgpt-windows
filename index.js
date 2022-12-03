@@ -12,7 +12,7 @@ const contextMenuTemplate = [
   { role: "about" },
   {
     label: "Quit",
-    accelerator: "Command+Q",
+    accelerator: "Ctrl+Q",
     click: function () {
       app.quit();
     },
@@ -41,7 +41,7 @@ app.on("ready", () => {
   });
 
   mb.on("ready", () => {
-    app.dock.hide();
+    // app.dock.hide();
 
     tray.on("right-click", () => {
       mb.tray.popUpContextMenu(Menu.buildFromTemplate(contextMenuTemplate));

@@ -1,17 +1,16 @@
-# ChatGPT for Mac
+# ChatGPT for Windows
 
-This is a simple app that makes ChatGPT live in your menubar.
+This is a simple app that makes ChatGPT live in your menubar. Forked from [chatgpt-mac](https://github.com/vincelwt/chatgpt-mac)
 
-You can use Cmd+Shift+G to quickly open it from anywhere.
+You can use Control+Shift+G to quickly open it from anywhere.
 
 Download:
 
-- [Mac Arm64 .dmg](https://github.com/vincelwt/chatgpt-mac/releases/download/v0.0.4/ChatGPT-0.0.4-arm64.dmg)
-- [Mac Intel .dmg](https://github.com/vincelwt/chatgpt-mac/releases/download/v0.0.4/ChatGPT-0.0.4-x64.dmg)
+- Soon To Come
 
-<p align="center">
+<!-- <p align="center">
   <img src="./images/screenshot.jpeg" width="500">
-</p>
+</p> -->
 
 ## Credit
 
@@ -19,4 +18,7 @@ All credit and copyrights goes to OpenAI.
 
 ## Author
 
-You can find me on Twitter [@vincelwt](https://twitter.com/vincelwt).
+Find my twitter and linkedin here: [LinkedIn/mcig](https://www.linkedin.com/in/m-cig/) and
+[Twitter/@Cgokpinar](https://twitter.com/CGokpinar)
+
+Find the mac version's author here: [@vincelwt](https://twitter.com/vincelwt).
