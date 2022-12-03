@@ -6,9 +6,9 @@
   "main": "index.js",
   "scripts": {
     "start": "electron-forge start",
-    "package": "electron-forge package --arch arm64,x64",
-    "make": " electron-forge make --arch arm64,x64",
-    "publish": "electron-forge publish --arch arm64,x64",
+    "package": "electron-forge package --arch x64",
+    "make": " electron-forge make --arch x64",
+    "publish": "electron-forge publish --arch x64",
     "lint": "echo \"No linting configured\""
   },
   "keywords": [
